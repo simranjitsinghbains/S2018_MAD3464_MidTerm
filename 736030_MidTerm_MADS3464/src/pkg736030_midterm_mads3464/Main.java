@@ -20,10 +20,17 @@ public class Main {
         
       LambtonStringTools lst = new LambtonStringTools();
     lst.reverse("Lambton");
+    
+    
+    String binaryString="1000";  
+int decimal=Integer.parseInt(binaryString,2);  
+System.out.println(decimal);  
+    }
+
     }
    
     
-    }
+    
 
 
         
@@ -33,4 +40,4 @@ public class Main {
 
         
     
-}
+
